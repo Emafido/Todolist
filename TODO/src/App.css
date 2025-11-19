@@ -1,0 +1,19 @@
+@import "tailwindcss";
+i{
+  cursor: pointer;
+}
+@media (min-width: 320px) {
+  .space{
+    max-width: 25vw;
+  }
+}
+@media (min-width: 370px) {
+  .space{
+    max-width: 40vw;
+  }
+}
+@media (min-width: 450px) {
+  .space{
+    max-width: 50vw;
+  }
+}
