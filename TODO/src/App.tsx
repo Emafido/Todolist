@@ -72,7 +72,7 @@ const App: React.FC = () => {
         {todos.map((todo, index) => (
           <div
             key={index}
-            className="flex w-full justify-between items-start p-2 border border-blue-400 rounded-md relative h-fit"
+            className="flex w-full justify-between items-start p-2 border border-blue-400 rounded-md items-center relative h-fit"
           >
             <div className="flex gap-5 items-start flex-1 min-w-0">
               <i
